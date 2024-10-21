@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif !important;
+    transition: 3s;
+}
+.body-bg{
+    background-image: url(../img/body-bg.webp);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+.full-header{
+    position:fixed;
+    // scroll-behavior: smooth;
+    z-index: 999;
+    margin-top: 100px;
+    // background-color:#b354ea ;
+
+}
+.navbar{
+    position:sticky;
+}
+.main-navbar{
+    padding-left: 100px;
+}
+
+.nav-link{
+    margin: 0px 20px;
+    font-size: 20px;
+    color: white !important;
+    font-weight: 700;
+    // border-radius: 20px;
+    &:hover{
+        transform: scale(1.1);
+        background-color:  #b354ea;
+        border-radius: 20px;
+    }
+}
+.btn{
+    background-image: url(../img/btn-signup.webp);
+    width: 155px;
+    height: 60px;
+    background-size: cover;
+    // margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 20px;
+    color: white !important;
+    // font-size: 40px;
+    // font-weight: 400;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/hero-bg1.webp);
+    background-size: cover;
+    // z-index: 999;
+    margin-top: -150px;
+}
+.row {
+    h1{
+        font-size: 95px;
+        font-family: "Metal Mania";
+        font-weight: 400;
+        color: #fff;
+        margin-top: 300px;
+    }
+    h3{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px;
+
+    }
+    .game-img{
+        width: 600px;
+        position: absolute;
+        top: 250px;
+    }
+}
+.btn2{
+    background-image: url(../img/btn-signup.webp);
+    width: 160px;
+    height: 60px;
+    background-size: cover !important;
+    margin-top: 20px;
+    color: white !important;
+    // border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    // background-repeat: no-repeat;
+    &:hover{
+        transform: scale(1.1);
+    }
+    
+}
+.gaming-wrd{
+    padding-top: 150px;
+    
+    h2{color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    padding-bottom: 50px;
+}
+}
+
+.card{
+    height: 450px !important;
+    background-size: cover !important;
+    background-color: transparent !important;
+    color: white;
+    border: none !important;
+    margin-bottom: 50px;
+    img{
+        width: 150px;
+        margin: 20px 100px;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .card-body{
+        margin-top: 10px;
+        font-size: 20px !important;
+        h3{
+            text-align: center;    
+            font-size: 28px !important;  
+            margin-top: 10px;  
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
+
+    }
+  
+}
+.navi-btn{
+    position: absolute;
+    margin-left: 10px;    
+}
+.play-btn{
+    margin-top: -400px !important;
+}
+.text-mini{
+    position: absolute;
+    left: 140px;
+}
+// other content 
+.othercontent{
+    padding-top: 50px;
+    h1{
+        text-align: center;
+        font-weight: 700;
+        color: white;
+    }
+    p{
+        color: #fff;
+        text-align: center;
+        font-weight: 400px;
+        margin-bottom: 50px;
+    }
+    .r1{
+        width: 80%;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: #090029;
+        margin: auto;
+        margin-top: 20px;
+        .p1{
+            width: 40%;
+            height: 100%;
+            // background-color: red;
+            float: left;
+            p{
+                margin-top: 20px;
+            }
+            h3 a{
+                text-decoration: none;
+                color: #fff;
+                &:hover{
+                    color: #b354ea;
+                }
+            }
+            h3{
+                margin-top: -30px;
+                margin-left: 40px;
+                font-weight: 600;
+                // font-size: 20px;
+            }
+            span{
+                color:#b354ea;
+                margin-left: 20px;
+                margin-left: 40px;
+            }
+        }
+        .p2{
+            width: 20%;
+            height: 100%;
+            // background-color: rgb(72, 255, 0);
+            float: left;
+            img{
+                width: 60px;
+                margin: 40px 65px;
+            }
+            span{
+                color: #ffa700;
+                font-size: 16px;
+                margin-left: 50px;
+            }
+        }
+        .p3{
+            width: 40%;
+            height: 100%;
+            // background-color: rgb(0, 195, 255);
+            float: left;
+            img{
+                margin-top: 30px;
+                margin-inline-start: 10px;
+                background: none;
+            }
+            .p3img{
+                width: 100px;
+            }
+        }
+}
+.last-btn{
+ .lst-btn{
+    margin-left: 484px;
+    margin-top: 40px;
+    padding-top: 15px;
+ }
+}
+
+}
+.numbers{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .cl{
+        // background-color: grey;
+       h2{
+         font-size: 80px;
+         text-align: center;
+         font-family: "Metal Mania";
+           }   
+            span{
+            color: #fff;
+            // text-align: center !important;
+            margin-left: 65px;
+    
+        }
+
+          }
+    .cl1  {
+        h2{
+            color: #ffa700;
+        }
+    }  
+    .cl2{
+        h2{
+            color: #1de3eb;
+        }
+        span{
+            margin-left: 78px;
+        }
+    }
+    .cl3{
+        h2{
+            color: #df4c21;
+        }
+        span{
+            margin-left: 58px;
+        }
+
+    }
+    .cl4{
+        h2{
+            color: #b154f0;
+        }
+        span{
+            margin-left: 95px;
+        }
+    }
+}
+// pupular games
+
+.popular-games{
+    h2{
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 80px;
+        font-weight: 700;
+    }
+  .row{
+    // height: 400px;
+    // background-color: red;
+    .bx{
+        // background-color: red;
+        background-size: cover;
+        height: 340px;
+        position: relative;
+        transition: 2s ease-in-out;
+        &:hover .btnp{
+            display: block;
+        }
+        .btnp{
+            position: absolute;
+            top: 130px;
+            left: 150px;
+            display: none;
+        }
+        .bxp{
+            width: 1000px;
+       }
+       &:hover .bxp{
+        opacity: 50%;
+       }
+
+    
+  }
+
+  
+}
+
+
+
+
+// modal 
+.modal-body{
+    background-color: black !important;
+}
+.slide-ex{
+    height: 400px !important;
+    margin-top: 50px;
+    // background-color: #090029;
+    background-image: url(../img/testimonial-bg.webp);
+    background-size: cover;
+    border-radius: 20px;
+    // border: 2px solid black;
+    img{
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 250px !important;
+    float: left;
+    } 
+    p{
+        color: white !important;
+        font-size: 22px;
+        // z-index: 999;
+        font-weight: 400;
+        float: left;
+        position: absolute;
+        left: 350px;
+        top: 50px;
+        margin-top: 30px;
+        margin-right: 80px;
+        // margin-left: 40px;
+        // line-height: 30px;
+        // padding: 10px;
+    }
+    h3{
+        position: absolute;
+        color: white;
+        font-weight: 600;
+        left: 350px;
+        bottom: 60px;
+    }
+    span{
+
+        font-size: 20px;
+        position: absolute;
+    color: #b354ea;
+    font-weight: 400px;
+    left: 350px;
+    bottom: 30px;}
+
+}
+
+
+
+
+// mwdia 
+@media  screen and (max-width:480px) {
+    .navbar-toggler img{
+        width: 45px;
+        // margin-left: 100px;
+    }
+    .full-header{
+       position:static;
+       margin-top: 0px;
+    }
+    .bx1{
+        h1{
+            margin-top: 170px;
+        font-size: 60px;
+        }
+        h3{
+            margin-top: -28px;
+        }
+        
+
+    }
+    .bx2 {
+        .game-img{
+        width: 300px;
+        margin-top: 200px;
+        margin-left: 40px;
+        }
+        
+    }
+    .gaming-wrd{
+        h2{
+            font-size: 28px;
+        
+    }
+    }  
+    .card{
+        // width: 90% !important;
+        // background-size: cover !important;
+        margin-bottom: 50px;
+        img{
+            margin-left: 100px !important;
+            width: 150px !important;
+        }
+    }
+    .ytbtn{
+        width: 200px;
+    }
+    .r1{
+        width: 80%;
+        height: 150px !important;
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: #090029;
+        margin: auto;
+        margin-top: 20px}
+        .slide-ex{
+            height: 200px !important;
+            margin-top: 50px;
+            // background-color: #090029;
+            background-image: url(../img/testimonial-bg.webp);
+            background-size: cover;
+            border-radius: 20px;
+            // border: 2px solid black;
+            img{
+            margin-top: 40px;
+            margin-left: 40px;
+            width: 80px !important;
+            float: left;
+            } 
+            p{
+                color: white !important;
+                font-size: 12px;
+                // z-index: 999;
+                // font-weight: 400;
+                float: left;
+                position: absolute;
+                left: 350px;
+                top: 50px;
+                margin-top: 30px;
+                margin-right: 80px;
+                // margin-left: 40px;
+                // line-height: 30px;
+                // padding: 10px;
+            }
+            h3{
+                position: absolute;
+                color: white;
+                font-weight: 600;
+                left: 350px;
+                bottom: 60px;
+            }
+            span{
+        
+                font-size: 20px;
+                position: absolute;
+            color: #b354ea;
+            font-weight: 400px;
+            left: 350px;
+            bottom: 30px;}
+        
+        }
+    
+}
+
